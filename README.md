@@ -1,2 +1,2 @@
 # Starting-Js
-repo for learning javascript
+Repo for learning javascript
