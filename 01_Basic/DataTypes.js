@@ -35,3 +35,31 @@ const func = function(){
 }
 
 console.log(typeof bigNum);
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ############################### Types of memory ###########################################
+
+// Stack(Primitive) and Heap(Non)
+
+let name = "abc"
+let name2 = name
+name2 = "cba"
+
+console.log(name);
+console.log(name2);
+
+let user = {
+    Id: 1,
+    name:"abc"
+}
+
+let user2 = user
+user2.Id = 0
+
+console.log(user.Id);
+console.log(user2.Id);
+
+
+
+
