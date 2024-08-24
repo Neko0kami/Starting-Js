@@ -1,4 +1,4 @@
-const name = "Afzaal"
+const name = "Neko_Kami"
 const score = 69
 
 // console.log(name+score);
