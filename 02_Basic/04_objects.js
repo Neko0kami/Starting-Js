@@ -47,12 +47,35 @@ const users = [
 
 users[1].email
 
-console.log(user);
-console.log(Object.keys(user));
-console.log(Object.values(user));
-console.log(Object.entries(user));
+// console.log(user);
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
 
-console.log(user.hasOwnProperty("age"));
+// console.log(user.hasOwnProperty("age"));
 
+const course = {
+    name: "JS",
+    price: 100,
+    instructor: "John Doe"
+}
 
+// Destructuring
 
+const {instructor: inst } = course
+// console.log(instructor);
+console.log(inst);
+
+// const navbar = () => {
+
+// }
+
+// navbar(company = "abcd")
+
+// JSON
+
+// {
+//     "course": "JS",
+//     "price": "100",
+//     "instructor": "John Doe"
+// }
