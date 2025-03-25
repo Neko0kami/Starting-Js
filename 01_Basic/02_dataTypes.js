@@ -2,9 +2,9 @@
 
 // alert("hello") // using nodejs, not browser
 
-let name = "Aish"
-let age = 16
-let isLoggedin = true
+const name = "Aish"
+const age = 16
+const isLoggedin = true
 let state;
 
 // number (range) => 2 to the power 53

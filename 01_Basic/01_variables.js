@@ -1,6 +1,6 @@
 const account_id = 123
 let account_email = "123@gmail.com"
-var account_password = "1234"
+let account_password = "1234"
 account_city = "Allahabad"
 let account_state;
 
